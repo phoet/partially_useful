@@ -31,6 +31,10 @@ The plugin is enabled by default, buy you can disable it in your rails configura
 config.partially_useful = false
 ```
 
+## Supported Ruby versions
+
+See .travis.yml
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/partially_useful/fork )
