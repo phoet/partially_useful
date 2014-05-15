@@ -1,5 +1,7 @@
 # PartiallyUseful
 
+[![Build Status](https://img.shields.io/travis/phoet/partially_useful/master.svg)](https://travis-ci.org/phoet/asin)
+
 When looking at a rendered html page, it's often hard to tell where the code of a partial lives inside the views directory.
 
 Surrounds rendered partials with html-comments in order to simplify the process of finding the proper file.
