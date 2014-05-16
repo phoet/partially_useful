@@ -6,6 +6,7 @@ require 'partially_useful/version'
 Gem::Specification.new do |spec|
   spec.name          = "partially_useful"
   spec.version       = PartiallyUseful::VERSION
+  spec.platform      = Gem::Platform::RUBY
   spec.authors       = ["phoet"]
   spec.email         = ["phoetmail@googlemail.com"]
   spec.homepage      = "https://github.com/phoet/partially_useful"
