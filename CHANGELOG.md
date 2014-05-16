@@ -1,3 +1,7 @@
+# 0.0.3
+
+* clarification for ruby version
+
 # 0.0.2
 
 * support ruby 2.0.0
