@@ -2,9 +2,11 @@
 
 [![Build Status](https://img.shields.io/travis/phoet/partially_useful/master.svg)](https://travis-ci.org/phoet/partially_useful)
 
-When looking at a rendered html page, it's often hard to tell where the code of a partial lives inside the views directory.
+HTML source code is very verbose and can be a pain in the ass to find a specific part on big pages.
 
-Surrounds rendered partials with html-comments in order to simplify the process of finding the proper file.
+Finding the origin of a piece of HTML in the Rails `app/views` directory can be tedious and error prone.
+
+Adding this gem to your Rails application adds HTML comments at development time, so it's easy to find the right partials.
 
 ```html
 <!-- start rendering 'some_partial' with locals '[:all, :assigned, :locals]'-->
@@ -26,12 +28,18 @@ gem 'partially_useful', group: 'development'
 
 ## Usage
 
-The plugin is enabled by default, buy you can disable it in your rails configuration:
+The plugin is enabled by default, but you can disable it in your Rails configuration:
 
 ```ruby
 # config/environments/development.rb
 config.partially_useful = false
 ```
+
+## Caveats
+
+HTML comments might subtly break your application when partials are used out of the usual HTML rendering context (JS, CSS etc).
+
+If you run into any problems, make sure to disable the gem and restart your Rails server.
 
 ## Supported Ruby versions
 
