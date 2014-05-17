@@ -1,6 +1,6 @@
 # PartiallyUseful
 
-[![Build Status](https://img.shields.io/travis/phoet/partially_useful/master.svg)](https://travis-ci.org/phoet/asin)
+[![Build Status](https://img.shields.io/travis/phoet/partially_useful/master.svg)](https://travis-ci.org/phoet/partially_useful)
 
 When looking at a rendered html page, it's often hard to tell where the code of a partial lives inside the views directory.
 
