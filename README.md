@@ -45,8 +45,6 @@ If you run into any problems, make sure to disable the gem and restart your Rail
 
 See .travis.yml
 
-JRuby does not support the `Module.prepend` method, because of that you won't be able to use it at the moment.
-
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/partially_useful/fork )
