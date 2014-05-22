@@ -1,3 +1,7 @@
+# 0.1.1
+
+* fix the gemspec
+
 # 0.1.0
 
 * support for 1.9.3 and jruby (no more Module#prepend)
