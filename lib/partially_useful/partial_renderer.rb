@@ -6,8 +6,20 @@ module PartiallyUseful
     end
 
     def render(context, options, block)
-      msg = "rendering '#{options[:partial]}' with locals '#{(options[:locals] || {}).keys}'"
-      "<!-- start #{msg}-->\n#{original_rails_render(context, options, block)}\n<!-- end #{msg}-->\n".html_safe
+      if html_context?(context)
+        msg = "rendering '#{options[:partial]}' with locals '#{(options[:locals] || {}).keys}'"
+        "<!-- start #{msg}-->\n#{original_rails_render(context, options, block)}\n<!-- end #{msg}-->\n".html_safe
+      else
+        original_rails_render(context, options, block)
+      end
+    end
+
+    private
+
+    def html_context?(context)
+      if context && context.request
+        context.request.format.html?
+      end
     end
   end
 end
