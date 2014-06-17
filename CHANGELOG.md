@@ -1,3 +1,7 @@
+# 0.2.0
+
+* comments only for html request
+
 # 0.1.1
 
 * fix the gemspec
