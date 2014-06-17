@@ -23,9 +23,15 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     builder (3.2.2)
+    byebug (3.1.2)
+      columnize (~> 0.8)
+      debugger-linecache (~> 1.2)
+    columnize (0.8.9)
+    debugger-linecache (1.2.0)
     erubis (2.7.0)
     i18n (0.6.9)
     json (1.8.1)
+    json (1.8.1-java)
     minitest (5.3.3)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -38,6 +44,7 @@ GEM
     rake (10.3.1)
     thor (0.19.1)
     thread_safe (0.3.3)
+    thread_safe (0.3.3-java)
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
 
@@ -47,5 +54,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.6)
+  byebug
   partially_useful!
   rake
