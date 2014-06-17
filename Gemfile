@@ -2,4 +2,4 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "byebug"
+gem "byebug", platforms: :ruby_20
