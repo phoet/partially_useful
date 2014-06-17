@@ -1,3 +1,7 @@
+# 0.2.1
+
+* remove ruby version requirement
+
 # 0.2.0
 
 * comments only for html request
