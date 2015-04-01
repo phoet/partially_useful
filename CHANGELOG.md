@@ -1,3 +1,7 @@
+# 0.2.2
+
+* loosen rails dependency
+
 # 0.2.1
 
 * remove ruby version requirement
