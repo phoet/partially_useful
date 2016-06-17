@@ -1,3 +1,7 @@
+# 5.0.0
+
+* compatibility with rails 5 (#4 @kirs)
+
 # 0.2.2
 
 * loosen rails dependency

@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    partially_useful (0.2.2)
-      railties (> 4.1, < 5.1)
+    partially_useful (5.0.0)
+      railties (>= 4.1, < 5.1)
 
 GEM
   remote: https://rubygems.org/
