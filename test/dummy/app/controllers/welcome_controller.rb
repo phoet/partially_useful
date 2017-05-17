@@ -1,7 +1,9 @@
 class WelcomeController < ApplicationController
-  respond_to :html, :json, :xml
-
   def index
-    respond_with({})
+    respond_to do |format|
+      format.html
+      format.xml
+      format.json { render json: {} }
+    end
   end
 end
