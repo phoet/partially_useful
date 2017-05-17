@@ -7,7 +7,6 @@ require 'action_view/railtie'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 require "partially_useful"
-require "responders" if Rails::VERSION::MINOR >= 2
 
 module Dummy
   class Application < Rails::Application

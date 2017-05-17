@@ -1,3 +1,8 @@
+# 5.1.0
+
+* compatibility with rails 5.1 (#5 @Edouard-chin)
+* remove responders gem (#6 @phoet)
+
 # 5.0.0
 
 * compatibility with rails 5 (#4 @kirs)
