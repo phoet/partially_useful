@@ -2,3 +2,7 @@ sudo: false
 script: "bundle exec rake"
 rvm:
   - 2.2.2
+
+gemfile:
+- gemfiles/railties-5-0.gemfile
+- gemfiles/railties-5-1.gemfile
