@@ -43,7 +43,8 @@ If you run into any problems, make sure to disable the gem and restart your Rail
 
 ## Supported Ruby and Rails versions
 
-Version 5.0.0 has support for Rails 5 and Ruby 2.2, older versions are supported by the 0.x releases.
+Version 5.1.0 has support for Rails 5.x and Ruby 2.x.
+Older Rails and Ruby versions are supported by the 0.x releases.
 
 ## Contributing
 
