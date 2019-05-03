@@ -1,3 +1,7 @@
+# 6.0.0
+
+* compatibility with rails 6 (#8 @phoet)
+
 # 5.1.0
 
 * compatibility with rails 5.1 (#5 @Edouard-chin)
