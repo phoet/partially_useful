@@ -4,7 +4,7 @@ module PartiallyUseful
 
     initializer :partially_useful do |app|
       if app.config.partially_useful
-        ActionView::PartialRenderer.prepend(PartiallyUseful::PartialRenderer)
+        ActionView::Renderer.prepend(PartiallyUseful::PartialRenderer)
       end
     end
   end
