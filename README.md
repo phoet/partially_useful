@@ -43,6 +43,7 @@ If you run into any problems, make sure to disable the gem and restart your Rail
 
 ## Supported Ruby and Rails versions
 
+Version 6.0.x has support for Rails 6.0.x.
 Version 5.1.0 has support for Rails 5.x and Ruby 2.x.
 Older Rails and Ruby versions are supported by the 0.x releases.
 
@@ -56,7 +57,8 @@ Older Rails and Ruby versions are supported by the 0.x releases.
 
 ## License
 
-"THE (extended) BEER-WARE LICENSE" (Revision 42.0815): [phoet](mailto:ps@nofail.de) contributed to this project.
+See [LICENSE.md](https://github.com/phoet/partially_useful/blob/master/LICENSE.md).
 
-As long as you retain this notice you can do whatever you want with this stuff.
-If we meet some day, and you think this stuff is worth it, you can buy me some beers in return.
+## Changelog
+
+See [CHANGELOG.md](https://github.com/phoet/partially_useful/blob/master/CHANGELOG.md).

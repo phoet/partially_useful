@@ -1,10 +1,12 @@
 sudo: false
+before_install:
+  - gem update --system
+  - gem install bundler
 script: "bundle exec rake"
 rvm:
-- 2.4.1
-- 2.2.2
+- 2.5.3
 gemfile:
-- gemfiles/railties-5-0.gemfile
-- gemfiles/railties-5-1.gemfile
+- gemfiles/railties-6-0.gemfile
+- gemfiles/railties-master.gemfile
 notifications:
   email: false
